@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Project</title>
+    <style>
+        body{
+            background-color: rgb(171, 216, 216);
+            padding:10px;
+            margin: 10px;
+            height: 500px;
+            text-align: center;
+        }
+        button{
+            background-color: rgba(37, 230, 37, 0.586);
+        }
+    </style>
+</head>
+<body>
+    <h1 text-align = "center"><i>Feedback Form</i></h1>
+    <form action = "/form" method="post">
+        <input type = "text" name="name" placeholder = "Enter Your name">
+        <br>
+        <br>
+        <input type = "text" name="email" placeholder = "Enter Your Email">
+        <br>
+        <br>
+        <input type = "text" name="contact" placeholder = "Enter Your Contact">
+        <br>
+        <br>
+        <input type = "text" name = "rollno" placeholder = "Enter Roll no">
+        <br>
+        <br>
+        <input type = "date" name = "date" placeholder = "Set the date">
+        <br>
+        <br>
+        Select your branch
+        <br>
+        <br>
+        <label for = "id1">
+            <input type = "radio" value = "AID" name = "options" id = "id1">AID
+        </label>
+        <br>
+        <br>
+        <label for = "id2">
+            <input type = "radio" value = "AI" name = "options" id = "id2">AI
+        </label>
+        <br>
+        <br>
+        <label for = "id3">
+            <input type = "radio" value = "CSM" name = "options" id = "id3">CSM
+        </label>
+        <br>
+        <br>
+        <br>
+        Choose the courses that you have enrolled?
+        <br>
+        <br>
+        <br>
+        <label for = "id1">
+        <input type = "radio" value = "Web Development" name = "courses" id = "id1">Web Development
+        </label>
+        <br>
+        <br>
+        <label for = "id2">
+            <input type = "radio" value = "App Development" name = "courses" id = "id2">App Development
+        </label>
+        <br>
+        <br>
+        <label for = "id3">
+            <input type = "radio" value = "Graphic Designing" name = "courses" id = "id3">Graphic Designing
+        </label>
+        <br>
+        <br>
+        <label for = "id3">
+            <input type = "radio" value = "Digital Marketing" name = "courses" id = "id3">Digital Marketing
+        </label>
+        <br>
+        <br>
+        <label for = "id4">
+            <input type = "radio" value = "Digital Marketing" name = "courses" id = "id4">Digital Marketing
+        </label>
+        <br>
+        <br>
+        How was your experience?
+        <br>
+        <br>
+        <label for = "id1">
+            <input type = "radio" value = "Good" name = "choice" id = "id1">Good
+        </label>
+        <br>
+        <br>
+        <label for = "id2">
+            <input type = "radio" value = "Average" name = "choice" id = "id2">Average
+        </label>
+        <br>
+        <br>
+        <label for = "id3">
+            <input type = "radio" value = "Bad" name = "choice" id = "id3">Bad
+        </label>
+        <br>
+        <br>
+        <button  class = "submit">
+            Submit
+        </button>
+        <!--<input type = "submit" value = "submit">-->
+    </form>
+</body>
+</html>
